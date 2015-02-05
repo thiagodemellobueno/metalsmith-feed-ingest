@@ -1,0 +1,28 @@
+{
+  "name": "metalsmith-feed-ingest",
+  "version": "0.0.0",
+  "description": "Pulls in an rss feed, saves it as files (json or md) for later parsing",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/madeofpeople/metalsmith-feed-ingest.git"
+  },
+  "author": "Thiago de Mello Bueno <thiago@madeofpeople.org>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/madeofpeople/metalsmith-feed-ingest/issues"
+  },
+  "dependencies": {
+    "feedparser": "^0.19.2",
+    "request": "^2.53.0"
+  },
+  "devDependencies": {
+    "chai": "~1.9.1",
+    "metalsmith": "~0.8.0",
+    "mocha": "~1.20.1"
+  },
+  "homepage": "https://github.com/madeofpeople/metalsmith-feed-ingest"
+}
